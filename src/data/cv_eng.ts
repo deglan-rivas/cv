@@ -29,18 +29,28 @@ export const cv_eng = {
       title: 'Professional Experience',
       jobs: [
         {
-          company: 'Wisec AI',
-          date: 'July, 2024 - Present',
+          company: 'Programate S.A.C',
+          date: 'October, 2024 - April, 2025',
+          position: 'Fullstack Developer',
+          activities: [
+            'Development and issue resolution in MIO, a web application based on React',
+            'Development and maintenance of the backend for VisiTasa using Azure Functions in C# for Tasa and Ologgi clients',
+            'Diagnosis and resolution of code and infrastructure issues in VisiTasa applications - Security through dashboard metrics and queries in KQL - Microsoft Azure'
+          ]
+        },
+        {
+          company: 'Aicon ( Wisec AI )',
+          date: 'July, 2024 - October, 2024',
           position: 'Fullstack Developer - Part time',
           activities: [
-            'Consumption of external APIs from the frontend using Next.js',
-            'Maintenance of backend services using Python'
+            'Consumption of external APIs from the frontend using Next.js and SWR',
+            'Consumption of standardized components such as tables and graphs using ShadcnUI',
+            'Maintenance of backend services using Python ( FastAPI )'
           ]
         },
         {
           company: 'Notifai S.A.C',
-          // date: 'January, 2023 - November, 2023',
-          date: 'January, 2023 - Present',
+          date: 'January, 2023 - November, 2023',
           position: 'Backend Developer',
           activities: [
             'Implemented functionalities for IBM Watson and DialogFlow to automate chatbots using Python / NodeJS',
@@ -62,7 +72,7 @@ export const cv_eng = {
         },
         {
           company: 'MDP Consulting',
-          date: 'April, 2022 - October, 2022',
+          date: 'April, 2022 - September, 2022',
           position: 'Backend Developer',
           activities: [
             'Maintained and developed new features for the NodeJS backend of the DAVI chatbot - UPN',
@@ -73,7 +83,7 @@ export const cv_eng = {
         },
         {
           company: 'Kranzz Ingeniería y Construcción S.A.C',
-          date: 'November, 2020 - December, 2021',
+          date: 'December, 2020 - July, 2021',
           position: 'Design and Project Engineer',
           activities: [
             'Developed and maintained a mobile application using Flutter',

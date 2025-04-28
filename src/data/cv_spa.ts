@@ -29,11 +29,18 @@ export const cv_spa = {
       title: 'Experiencia Profesional',
       jobs: [
         {
-          company: 'Wisec AI',
-          // startAt: 'Enero, 2023',
-          // endAt: 'November, 2024',
-          // date: 'Julio, 2024 - Actualidad',
-          date: 'Julio, 2024 - Noviembre, 2024',
+          company: 'Programate S.A.C',
+          date: 'Octubre, 2024 - Abril, 2025',
+          position: 'Fullstack Developer',
+          activities: [
+            'Desarrollo y resolución de incidencias en MIO, aplicación web basada en React',
+            'Desarrollo y mantenimiento del backend de VisiTasa utilizando azure functions en C# para clientes Tasa y Ologgi',
+            'Diagnóstico y solución de problemas de código e infraestructura de aplicaciones VisiTasa - Seguridad mediante métricas del dashboard y consultas en KQL - Microsoft Azure',
+          ]
+        },
+        {
+          company: 'Aicon ( Wisec AI )',
+          date: 'Julio, 2024 - Octubre, 2024',
           position: 'Fullstack Developer - Part time',
           activities: [
             'Consumo de APIs externas desde el frontend utilizando Next.js y SWR',
@@ -43,11 +50,7 @@ export const cv_spa = {
         },
         {
           company: 'Notifai S.A.C',
-          // startAt: 'Enero, 2023',
-          // endAt: 'November, 2024',
-          date: 'Enero, 2023 - Noviembre, 2024',
-          // date: 'Enero, 2023 - Octubre, 2024',
-          // date: 'Enero, 2023 - Actualidad',
+          date: 'Enero, 2023 - Noviembre, 2023',
           position: 'Backend Developer',
           activities: [
             'Implementación de funcionalidades para IBM Watson y DialogFlow para automatizar chatbots en Python / NodeJS',
@@ -59,8 +62,6 @@ export const cv_spa = {
         },
         {
           company: 'Core Andina Group S.A.C',
-          // startAt: 'Marzo, 2023',
-          // endAt: 'Junio, 2023',
           date: 'Marzo, 2023 - Junio, 2023',
           position: 'Fullstack Developer - Freelancer',
           activities: [
@@ -71,9 +72,7 @@ export const cv_spa = {
         },
         {
           company: 'MDP Consulting',
-          // startAt: 'Abril, 2022',
-          // endAt: 'Octubre, 2022',
-          date: 'Abril, 2022 - Octubre, 2022',
+          date: 'Abril, 2022 - Septiembre, 2022',
           position: 'Backend Developer',
           activities: [
             'Mantenimiento y desarrollo de nuevas funcionalidades para el backend en NodeJS del chatbot DAVI - UPN',
@@ -84,9 +83,7 @@ export const cv_spa = {
         },
         {
           company: 'Kranzz Ingeniería y Construcción S.A.C',
-          // startAt: 'Noviembre, 2020',
-          // endAt: 'Diciembre, 2021',
-          date: 'Noviembre, 2020 - Diciembre, 2021',
+          date: 'Diciembre, 2020 - Julio, 2021',
           position: 'Ingeniero de Diseño y Proyectos',
           activities: [
             'Desarrollo y mantenimiento de una aplicación móvil en Flutter',
