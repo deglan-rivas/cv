@@ -68,6 +68,7 @@ export const cv_spa = {
             'Desarrollo del maquetado HTML / CSS en Bootstrap',
             'Mantenimiento del frontend en VanillaJS / JQuery. Póstuma migración a React / React Router',
             'Desarrollo de aplicación de atención de tickets en tiempo real utilizando Websockets en NodeJS',
+            'Mantemiento de una aplicación que emite facturas en Java ( Spring Boot )',
           ]
         },
         {
@@ -86,8 +87,10 @@ export const cv_spa = {
           date: 'Diciembre, 2020 - Julio, 2021',
           position: 'Ingeniero de Diseño y Proyectos',
           activities: [
-            'Desarrollo y mantenimiento de una aplicación móvil en Flutter',
             'Elaboración de Mockups para aplicación móvil en Figma',
+            'Maquetación de la aplicación móvil en App Inventor',
+            'Desarrollo y mantenimiento de una aplicación móvil en Flutter',
+            'Desarrollo y mantenimiento del backend en Java ( Spring Boot )',
           ]
         },
       ]
@@ -95,7 +98,7 @@ export const cv_spa = {
     header: 'header',
     profile: {
       title: 'Perfil Profesional',
-      content: 'Profesional Backend Developer con 4 años de experiencia desarrollando software para el sector de empresas Outsourcing. Posee habilidades comprobadas en el diseño e implementación de APIs, diseño de bases de datos SQL/ NoSQL, consumo de servicios AWS, y arquitectura orientada a eventos y microservicios. Busca nuevas oportunidades como Desarrollador Semi-Senior o Tech Lead, donde pueda aplicar su experiencia y liderazgo técnico para impulsar proyectos innovadores y eficientes. Además, cuenta con inglés conversacional y certificaciones de AWS.'
+      content: `Profesional Backend Developer con más de ${new Date().getFullYear() - 2021} años de experiencia desarrollando software para el sector de empresas Outsourcing. Posee habilidades comprobadas en el diseño e implementación de APIs, diseño de bases de datos SQL/ NoSQL, consumo de servicios AWS, y arquitectura orientada a eventos y microservicios. Busca nuevas oportunidades como Desarrollador Semi-Senior o Tech Lead, donde pueda aplicar su experiencia y liderazgo técnico para impulsar proyectos innovadores y eficientes. Además, cuenta con inglés conversacional y certificaciones de AWS.`
     },
   }
 }
