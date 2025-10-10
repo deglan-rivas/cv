@@ -29,11 +29,23 @@ export const cv_eng = {
       title: 'Professional Experience',
       jobs: [
         {
+          company: 'Jurado Nacional de Elecciones (Perú)',
+          date: 'May, 2025 - Present',
+          position: 'Analyst Developer',
+          activities: [
+            'Design and implementation of an intelligent search engine based on graphs, integrating LLMs and graph-augmented retrieval techniques (GraphRAG) implemented in TypeScript with NestJS (NodeJS)',
+            'Design and implementation of a hybrid chatbot utilizing the Gemini API in FastAPI (Python). Integration of Redis for cache management and latency reduction',
+            'Decoupling the monolith of the EleccIA application: migrating the frontend to React and refactoring the backend into Dockerized microservices (Docker multistage) orchestrated with Docker Compose, applying Hexagonal Architecture',
+            'Design and implementation of a desktop application for the JNE Vote Counting system using Vite, React, TailwindCSS, and localStorage for client-side data persistence',
+            'Migration of a .NET .DLL file to Python: decrypting connection strings and enabling database connection with IP whitelist restrictions'
+          ]
+        },
+        {
           company: 'Programate S.A.C',
           date: 'October, 2024 - April, 2025',
           position: 'Fullstack Developer',
           activities: [
-            'Development and issue resolution in MIO, a web application based on React',
+            'Development and issue resolution in MIO, a web application based on React and Express ( NodeJS )',
             'Development and maintenance of the backend for VisiTasa using Azure Functions in C# for Tasa and Ologgi clients',
             'Diagnosis and resolution of code and infrastructure issues in VisiTasa applications - Security through dashboard metrics and queries in KQL - Microsoft Azure'
           ]

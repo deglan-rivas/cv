@@ -29,11 +29,23 @@ export const cv_spa = {
       title: 'Experiencia Profesional',
       jobs: [
         {
+          company: 'Jurado Nacional de Elecciones',
+          date: 'Mayo, 2025 - Actualidad',
+          position: 'Analista Desarrollador',
+          activities: [
+            'Diseño e implementación de un buscador inteligente basado en grafos integrando LLMs y técnicas de recuperación aumentada por grafos (GraphRAG) implementado en TypeScript con NestJS ( NodeJS )',
+            'Diseño e implementación de un chatbot híbrido utilizando la API de Gemini en FastAPI (Python). Integración de Redis para gestión de caché y reducción de latencia',
+            'Desacoplamiento del monolito de la aplicación EleccIA: migración del frontend a React y refactorización del backend en microservicios dockerizados (Docker multistage) orquestados con Docker Compose, aplicando Arquitectura Hexagonal',
+            'Diseño e implementación de una aplicación de escritorio para el Recuento de Votos del JNE utilizando Vite, React, TailwindCSS y localStorage para persistencia de datos en cliente',
+            'Migración de un archivo .DLL de .NET a Python: desencriptado de cadenas de conexión y habilitación de la conexión a base de datos con restricciones de IPs ( whitelist )',
+          ]
+        },
+        {
           company: 'Programate S.A.C',
           date: 'Octubre, 2024 - Abril, 2025',
           position: 'Fullstack Developer',
           activities: [
-            'Desarrollo y resolución de incidencias en MIO, aplicación web basada en React',
+            'Desarrollo y resolución de incidencias en MIO, aplicación web basada en React y Express ( NodeJS )',
             'Desarrollo y mantenimiento del backend de VisiTasa utilizando azure functions en C# para clientes Tasa y Ologgi',
             'Diagnóstico y solución de problemas de código e infraestructura de aplicaciones VisiTasa - Seguridad mediante métricas del dashboard y consultas en KQL - Microsoft Azure',
           ]
