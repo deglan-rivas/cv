@@ -46,8 +46,8 @@ export const cv_eng = {
           position: 'Fullstack Developer',
           activities: [
             'Development and issue resolution in MIO, a web application based on React (implementing functional components with Hooks, React Router for navigation, and state management with Context API) and Express (NodeJS) for the backend',
-            'Development and maintenance of the VisiTasa backend using Azure Functions in C# for Tasa and Ologgi clients',
-            'Diagnosis and resolution of code and infrastructure issues in VisiTasa applications - Security through dashboard metrics and KQL queries - Microsoft Azure'
+            'Development and maintenance of the VisiTasa serverless backend with Azure Functions in C# (.NET), supporting multiple enterprise clients (Tasa and Ologgi) in a cloud production environment on Azure',
+            'Reduced production incident diagnosis time through KQL queries in Azure Monitor and Application Insights, improving visibility of security metrics and system performance',
           ]
         },
         {
@@ -80,7 +80,9 @@ export const cv_eng = {
             'Development of responsive HTML/CSS layouts with Bootstrap and Tailwind CSS, ensuring accessibility and cross-browser compatibility',
             'Development of real-time ticket management application using WebSockets in NodeJS. Implementation of event-driven architecture for push notifications and state synchronization across clients',
             'Maintenance of legacy frontend (VanillaJS/jQuery) and subsequent migration to React with TypeScript. Development of reusable components, SPA routing with React Router, and REST API consumption with side effects management (useEffect)',
-            'Development and maintenance of RESTful APIs for electronic invoicing system in Java (Spring Boot). Implementation of data validation, transaction management, authentication and authorization, and persistence with JPA',
+            // [JAVA] 'Development and maintenance of RESTful APIs for electronic invoicing system in Java (Spring Boot). Implementation of data validation, transaction management, authentication and authorization, and persistence with JPA',
+            // [.NET]
+            'Development and maintenance of RESTful APIs for electronic invoicing system in ASP.NET Core (C#). Implementation of validation with FluentValidation, transaction management with Entity Framework Core, JWT authentication and role-based authorization with ASP.NET Identity',
           ]
         },
         {
@@ -89,7 +91,9 @@ export const cv_eng = {
           position: 'Backend Developer',
           activities: [
             'Development and maintenance of NodeJS backend for DAVI chatbot (UPN). Unit testing and API debugging, performance optimization, and deployment to staging/production environments',
-            'Implementation of authentication and authorization module with Java (Spring Boot). Configuration of Spring Security with JWT, implementation of custom filters, role and permission management across multiple systems using @PreAuthorize',
+            // [JAVA] 'Implementation of authentication and authorization module with Java (Spring Boot). Configuration of Spring Security with JWT, implementation of custom filters, role and permission management across multiple systems using @PreAuthorize',
+            // [.NET]
+            'Implementation of authentication and authorization module with ASP.NET Core (C#). Configuration of JWT Bearer Authentication with custom middleware, role and policy-based access management across multiple systems using the [Authorize] attribute',
             'Schema design and relational database optimization (PostgreSQL). Development of complex queries with Window Functions, Common Table Expressions (CTEs), Temporary Tables, and indexes for performance improvement',
             'Conversion from monolithic architecture to microservices migrating code to IBM Cloud using triggers. Application of scalable design principles and service decoupling',
             'Migration of codebase from JavaScript to TypeScript, creation of technical documentation, and team training on development best practices',
@@ -100,7 +104,9 @@ export const cv_eng = {
           date: 'December, 2020 - July, 2021',
           position: 'Design and Project Engineer',
           activities: [
-            'Development and maintenance of RESTful backend in Java (Spring Boot) with layered architecture (Controller, Service, Repository). Creation of endpoints, data validation, exception handling with @ControllerAdvice, CORS and security configuration',
+            // [JAVA] 'Development and maintenance of RESTful backend in Java (Spring Boot) with layered architecture (Controller, Service, Repository). Creation of endpoints, data validation, exception handling with @ControllerAdvice, CORS and security configuration',
+            // [.NET]
+            'Development and maintenance of RESTful backend in ASP.NET Core (C#) with layered architecture (Controller, Service, Repository). Creation of endpoints, validation with FluentValidation, global exception handling with middleware, CORS and security configuration',
             'Database schema design representing business processes. API testing with Postman, debugging in development environment, and deployment to production',
             'Development and maintenance of mobile application in Flutter. Backend integration through REST API consumption, authentication handling between mobile client and server',
             'Creation of mockups in Figma and mobile application layout in App Inventor. Collaboration with development team to define technical specifications',
