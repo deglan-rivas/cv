@@ -13,7 +13,7 @@ export const cv_spa = {
       ]
     },
     certifications: {
-      title: 'Certificationes',
+      title: 'Certificaciones',
       items: [
         'AWS Cloud Practitioner - 2023'
       ]
@@ -31,13 +31,13 @@ export const cv_spa = {
         {
           company: 'Jurado Nacional de Elecciones',
           date: 'Mayo, 2025 - Actualidad',
-          position: 'Analista Desarrollador',
+          position: 'AI Developer',
           activities: [
-            'Diseño e implementación de un buscador inteligente basado en grafos integrando LLMs y técnicas de recuperación aumentada por grafos (GraphRAG) implementado en TypeScript con NestJS ( NodeJS )',
-            'Diseño e implementación de un chatbot híbrido utilizando la API de Gemini en FastAPI (Python). Integración de Redis para gestión de caché y reducción de latencia',
-            'Desacoplamiento del monolito de la aplicación EleccIA: migración del frontend a React y refactorización del backend en microservicios dockerizados (Docker multistage) orquestados con Docker Compose, aplicando Arquitectura Hexagonal',
-            'Diseño e implementación de una aplicación de escritorio para el Recuento de Votos del JNE utilizando Vite, React, TailwindCSS y localStorage para persistencia de datos en cliente',
-            'Migración de un archivo .DLL de .NET a Python: desencriptado de cadenas de conexión y habilitación de la conexión a base de datos con restricciones de IPs ( whitelist )',
+            'Implementar infraestructura en la nube de AWS, en conjunto con Kubernetes, para escalar de manera temporal el procesamiento hasta cinco veces la capacidad actual de un sistema batch de procesamiento en lotes on-premise',
+            'Estandarizar la generación de código del equipo bajo un enfoque AI-driven development, mediante precommit hooks, CI/CD, subagentes y skills especializados para homogenizar el código producido por distintos LLMs empleados por los desarrolladores: Cursor, Claude y Codex',
+            'Implementar un chatbot conversacional de jurisprudencia basado en un RAG de grafos (GraphRAG) desarrollado con Python, capaz de responder las consultas frecuentes de los asistentes jurisdiccionales de forma más fluida y natural que un chatbot tradicional basado en árboles de decisión. Asimismo, se incorporó un mecanismo de caché para reducir en un 50 % el consumo de tokens del LLM (API de Gemini)',
+            'Refactorización de arquitectura monolítica a microservicios dockerizados aplicando Arquitectura Hexagonal. Orquestación de contenedores con Docker Compose (multistage builds), configuración de entornos de desarrollo y producción, y deployment automatizado',
+            'Desarrollo de aplicación de escritorio (Vite + React + TypeScript + TailwindCSS) con componentes reutilizables, validación de formularios, y persistencia de datos. Colaboración con equipo de backend para integración de APIs y testing end-to-end',
           ]
         },
         {
@@ -45,8 +45,8 @@ export const cv_spa = {
           date: 'Octubre, 2024 - Abril, 2025',
           position: 'Fullstack Developer',
           activities: [
-            'Desarrollo y resolución de incidencias en MIO, aplicación web basada en React y Express ( NodeJS )',
-            'Desarrollo y mantenimiento del backend de VisiTasa utilizando azure functions en C# para clientes Tasa y Ologgi',
+            'Desarrollo y resolución de incidencias en MIO, aplicación web basada en React (implementando componentes funcionales con Hooks, React Router para navegación, y gestión de estado con Context API) y Express (NodeJS) para el backend',
+            'Desarrollo y mantenimiento del backend de VisiTasa utilizando Azure Functions en C# para clientes Tasa y Ologgi',
             'Diagnóstico y solución de problemas de código e infraestructura de aplicaciones VisiTasa - Seguridad mediante métricas del dashboard y consultas en KQL - Microsoft Azure',
           ]
         },
@@ -55,9 +55,9 @@ export const cv_spa = {
           date: 'Julio, 2024 - Octubre, 2024',
           position: 'Fullstack Developer - Part time',
           activities: [
-            'Consumo de APIs externas desde el frontend utilizando Next.js y SWR',
-            'Consumo de componentes estandarizados como tablas y gráficos utilizando ShadcnUI',
-            'Mantenimiento de servicios del backend utilizando Python ( FastAPI )',
+            'Mantenimiento y desarrollo de servicios backend en Python (FastAPI). Debugging y resolución de issues en producción, optimización de queries, y testing de endpoints con pytest',
+            'Desarrollo y testing de APIs RESTful siguiendo principios de diseño escalable. Implementación de validación de datos, manejo de errores, y documentación automática con OpenAPI/Swagger',
+            'Colaboración con equipo frontend para integración de APIs. Consumo de componentes estandarizados (tablas, gráficos) y manejo de estado en Next.js con SWR',
           ]
         },
         {
@@ -65,11 +65,11 @@ export const cv_spa = {
           date: 'Enero, 2023 - Noviembre, 2023',
           position: 'Backend Developer',
           activities: [
-            'Implementación de funcionalidades para IBM Watson y DialogFlow para automatizar chatbots en Python / NodeJS',
-            'Despliegue automatizado de entornos de dev y prod mediante un pipeline en Github Actions',
-            'Despligue de arquitectura en AWS Cloudformation mediante template.yaml',
-            'Desarrollo de arquitectura orientada a eventos y microservicios en AWS usando Lambdas, SQS FIFO, Eventbridge para el cliente UPN',
-            'Modelado de datos en AWS documentDB - base de datos no relacional'
+            'Desarrollo de funciones serverless en Python (AWS Lambda) para automatización de chatbots con IBM Watson y DialogFlow. Implementación de event-driven programming con AWS EventBridge para procesamiento asíncrono',
+            'Diseño e implementación de arquitectura de microservicios orientada a eventos en AWS: Lambdas (Python), SQS FIFO para mensajería, EventBridge para event routing, aplicando principios de diseño escalable y desacoplamiento',
+            'Configuración y despliegue automatizado de infraestructura como código (IaC) en AWS CloudFormation mediante template.yaml. Setup de entornos de staging y producción con pipeline CI/CD en GitHub Actions',
+            'Modelado de schemas de base de datos en AWS DocumentDB (NoSQL) que representan y soportan procesos de negocio. Integración de múltiples fuentes de datos en un sistema unificado',
+            'Testing y debugging de servicios en producción. Resolución de issues de configuración en servidores, monitoreo de performance, y optimización de recursos AWS',
           ]
         },
         {
@@ -77,10 +77,10 @@ export const cv_spa = {
           date: 'Marzo, 2023 - Junio, 2023',
           position: 'Fullstack Developer - Freelancer',
           activities: [
-            'Desarrollo del maquetado HTML / CSS en Bootstrap',
-            'Mantenimiento del frontend en VanillaJS / JQuery. Póstuma migración a React / React Router',
-            'Desarrollo de aplicación de atención de tickets en tiempo real utilizando Websockets en NodeJS',
-            'Mantemiento de una aplicación que emite facturas en Java ( Spring Boot )',
+            'Desarrollo de maquetado responsive HTML/CSS con Bootstrap y Tailwind CSS, asegurando accesibilidad y compatibilidad cross-browser',
+            'Desarrollo de aplicación de atención de tickets en tiempo real utilizando WebSockets en NodeJS. Implementación de arquitectura event-driven para notificaciones push y sincronización de estado entre clientes',
+            'Mantenimiento del frontend legacy (VanillaJS/jQuery) y posterior migración a React con TypeScript. Desarrollo de componentes reutilizables, routing SPA con React Router, y consumo de APIs REST con manejo de efectos secundarios (useEffect)',
+            'Desarrollo y mantenimiento de APIs RESTful para sistema de facturación electrónica en Java (Spring Boot). Implementación de validación de datos, manejo de transacciones, autenticación y autorización, y persistencia con JPA',
           ]
         },
         {
@@ -88,10 +88,11 @@ export const cv_spa = {
           date: 'Abril, 2022 - Septiembre, 2022',
           position: 'Backend Developer',
           activities: [
-            'Mantenimiento y desarrollo de nuevas funcionalidades para el backend en NodeJS del chatbot DAVI - UPN',
-            'Desarrollo y optimización de la DDBB relacional ( PosgreSQL ) mediante Window Functions, Common Table Expressions y Temporary Tables',
-            'Conversión de monolítica a microservicios migrando código a la nube de IBM mediante triggers',
-            'Migración del codigo de Javascript a Typescript, documentación del código y capacitación de colegas'
+            'Desarrollo y mantenimiento de backend en NodeJS para chatbot DAVI (UPN). Testing unitario y debugging de APIs, optimización de performance, y deployment a entornos de staging/producción',
+            'Implementación de módulo de autenticación y autorización con Java (Spring Boot). Configuración de Spring Security con JWT, implementación de filtros personalizados, gestión de roles y permisos entre múltiples sistemas usando @PreAuthorize',
+            'Diseño de schemas y optimización de base de datos relacional (PostgreSQL). Desarrollo de queries complejas con Window Functions, Common Table Expressions (CTEs), Temporary Tables, e índices para mejorar performance',
+            'Conversión de arquitectura monolítica a microservicios migrando código a IBM Cloud mediante triggers. Aplicación de principios de diseño escalable y desacoplamiento de servicios',
+            'Migración de codebase de JavaScript a TypeScript, creación de documentación técnica, y capacitación de equipo en mejores prácticas de desarrollo',
           ]
         },
         {
@@ -99,10 +100,10 @@ export const cv_spa = {
           date: 'Diciembre, 2020 - Julio, 2021',
           position: 'Ingeniero de Diseño y Proyectos',
           activities: [
-            'Elaboración de Mockups para aplicación móvil en Figma',
-            'Maquetación de la aplicación móvil en App Inventor',
-            'Desarrollo y mantenimiento de una aplicación móvil en Flutter',
-            'Desarrollo y mantenimiento del backend en Java ( Spring Boot )',
+            'Desarrollo y mantenimiento de backend RESTful en Java (Spring Boot) con arquitectura en capas (Controller, Service, Repository). Creación de endpoints, validación de datos, manejo de excepciones con @ControllerAdvice, configuración de CORS y seguridad',
+            'Diseño de schemas de base de datos que representan procesos de negocio. Testing de APIs con Postman, debugging en entorno de desarrollo, y deployment a producción',
+            'Desarrollo y mantenimiento de aplicación móvil en Flutter. Integración con backend mediante consumo de APIs REST, manejo de autenticación entre cliente móvil y servidor',
+            'Elaboración de mockups en Figma y maquetación de aplicación móvil en App Inventor. Colaboración con equipo de desarrollo para definir especificaciones técnicas',
           ]
         },
       ]
@@ -110,7 +111,7 @@ export const cv_spa = {
     header: 'header',
     profile: {
       title: 'Perfil Profesional',
-      content: `Profesional Backend Developer con más de ${new Date().getFullYear() - 2021} años de experiencia desarrollando software para el sector de empresas Outsourcing. Posee habilidades comprobadas en el diseño e implementación de APIs, diseño de bases de datos SQL/ NoSQL, consumo de servicios AWS, y arquitectura orientada a eventos y microservicios. Busca nuevas oportunidades como Desarrollador Semi-Senior o Tech Lead, donde pueda aplicar su experiencia y liderazgo técnico para impulsar proyectos innovadores y eficientes. Además, cuenta con inglés conversacional y certificaciones de AWS.`
+      content: `Backend Developer con más de ${new Date().getFullYear() - 2021} años de experiencia especializado en Python (FastAPI, Flask) y desarrollo de aplicaciones web escalables. Expertise comprobado en diseño e implementación de APIs RESTful, arquitectura de microservicios orientada a eventos, integración de múltiples fuentes de datos (SQL/NoSQL), y servicios en la nube (AWS). Experiencia en autenticación y autorización entre sistemas, optimización de rendimiento con caché (Redis), manejo de concurrencia y programación asíncrona en Python. Sólidos conocimientos en frontend (HTML/CSS/Tailwind CSS, React/TypeScript) permitiendo colaboración efectiva con equipos Full-Stack. Experiencia en despliegue automatizado (CI/CD), testing, debugging, y gestión de entornos de staging/producción. Certificado en AWS Cloud Practitioner con inglés conversacional fluido.`
     },
   }
 }

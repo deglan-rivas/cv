@@ -31,13 +31,13 @@ export const cv_eng = {
         {
           company: 'Jurado Nacional de Elecciones (Perú)',
           date: 'May, 2025 - Present',
-          position: 'Analyst Developer',
+          position: 'AI Developer',
           activities: [
-            'Design and implementation of an intelligent search engine based on graphs, integrating LLMs and graph-augmented retrieval techniques (GraphRAG) implemented in TypeScript with NestJS (NodeJS)',
-            'Design and implementation of a hybrid chatbot utilizing the Gemini API in FastAPI (Python). Integration of Redis for cache management and latency reduction',
-            'Decoupling the monolith of the EleccIA application: migrating the frontend to React and refactoring the backend into Dockerized microservices (Docker multistage) orchestrated with Docker Compose, applying Hexagonal Architecture',
-            'Design and implementation of a desktop application for the JNE Vote Counting system using Vite, React, TailwindCSS, and localStorage for client-side data persistence',
-            'Migration of a .NET .DLL file to Python: decrypting connection strings and enabling database connection with IP whitelist restrictions'
+            'Implement AWS cloud infrastructure, in conjunction with Kubernetes, to temporarily scale processing up to five times the current capacity of an on-premise batch processing system',
+            'Standardize the team\'s code generation under an AI-driven development approach, using precommit hooks, CI/CD, subagents and specialized skills to homogenize code produced by different LLMs used by developers: Cursor, Claude and Codex',
+            'Implement a conversational jurisprudence chatbot based on a Graph RAG (GraphRAG) developed with Python, capable of answering frequent queries from jurisdictional assistants more fluidly and naturally than a traditional decision-tree-based chatbot. Additionally, a cache mechanism was incorporated to reduce LLM token consumption (Gemini API) by 50%',
+            'Refactoring monolithic architecture to Dockerized microservices applying Hexagonal Architecture. Container orchestration with Docker Compose (multistage builds), configuration of development and production environments, and automated deployment',
+            'Development of desktop application (Vite + React + TypeScript + TailwindCSS) with reusable components, form validation, and data persistence. Collaboration with backend team for API integration and end-to-end testing',
           ]
         },
         {
@@ -45,9 +45,9 @@ export const cv_eng = {
           date: 'October, 2024 - April, 2025',
           position: 'Fullstack Developer',
           activities: [
-            'Development and issue resolution in MIO, a web application based on React and Express ( NodeJS )',
-            'Development and maintenance of the backend for VisiTasa using Azure Functions in C# for Tasa and Ologgi clients',
-            'Diagnosis and resolution of code and infrastructure issues in VisiTasa applications - Security through dashboard metrics and queries in KQL - Microsoft Azure'
+            'Development and issue resolution in MIO, a web application based on React (implementing functional components with Hooks, React Router for navigation, and state management with Context API) and Express (NodeJS) for the backend',
+            'Development and maintenance of the VisiTasa backend using Azure Functions in C# for Tasa and Ologgi clients',
+            'Diagnosis and resolution of code and infrastructure issues in VisiTasa applications - Security through dashboard metrics and KQL queries - Microsoft Azure'
           ]
         },
         {
@@ -55,9 +55,9 @@ export const cv_eng = {
           date: 'July, 2024 - October, 2024',
           position: 'Fullstack Developer - Part time',
           activities: [
-            'Consumption of external APIs from the frontend using Next.js and SWR',
-            'Consumption of standardized components such as tables and graphs using ShadcnUI',
-            'Maintenance of backend services using Python ( FastAPI )'
+            'Maintenance and development of backend services in Python (FastAPI). Debugging and resolution of production issues, query optimization, and endpoint testing with pytest',
+            'Development and testing of RESTful APIs following scalable design principles. Implementation of data validation, error handling, and automatic documentation with OpenAPI/Swagger',
+            'Collaboration with frontend team for API integration. Consumption of standardized components (tables, graphs) and state management in Next.js with SWR',
           ]
         },
         {
@@ -65,11 +65,11 @@ export const cv_eng = {
           date: 'January, 2023 - November, 2023',
           position: 'Backend Developer',
           activities: [
-            'Implemented functionalities for IBM Watson and DialogFlow to automate chatbots using Python / NodeJS',
-            'Automated deployment of development and production environments via a pipeline in GitHub Actions (main.yml)',
-            'Deployed architecture on AWS CloudFormation using template.yaml',
-            'Developed event-driven and microservices architecture on AWS using Lambdas, SQS FIFO, and EventBridge for the client UPN',
-            'Modeled data in AWS DocumentDB - non-relational database'
+            'Development of serverless functions in Python (AWS Lambda) for chatbot automation with IBM Watson and DialogFlow. Implementation of event-driven programming with AWS EventBridge for asynchronous processing',
+            'Design and implementation of event-driven microservices architecture on AWS: Lambdas (Python), SQS FIFO for messaging, EventBridge for event routing, applying scalable design principles and decoupling',
+            'Configuration and automated deployment of Infrastructure as Code (IaC) on AWS CloudFormation using template.yaml. Setup of staging and production environments with CI/CD pipeline in GitHub Actions',
+            'Database schema modeling in AWS DocumentDB (NoSQL) representing and supporting business processes. Integration of multiple data sources into a unified system',
+            'Testing and debugging services in production. Resolution of server configuration issues, performance monitoring, and AWS resource optimization',
           ]
         },
         {
@@ -77,9 +77,10 @@ export const cv_eng = {
           date: 'March, 2023 - June, 2023',
           position: 'Fullstack Developer - Freelancer',
           activities: [
-            'Developed HTML / CSS layouts using Bootstrap',
-            'Maintained legacy frontend in VanillaJS / JQuery. Then migrated it to React / React Router',
-            'Developed a real-time ticketing application using WebSockets in NodeJS'
+            'Development of responsive HTML/CSS layouts with Bootstrap and Tailwind CSS, ensuring accessibility and cross-browser compatibility',
+            'Development of real-time ticket management application using WebSockets in NodeJS. Implementation of event-driven architecture for push notifications and state synchronization across clients',
+            'Maintenance of legacy frontend (VanillaJS/jQuery) and subsequent migration to React with TypeScript. Development of reusable components, SPA routing with React Router, and REST API consumption with side effects management (useEffect)',
+            'Development and maintenance of RESTful APIs for electronic invoicing system in Java (Spring Boot). Implementation of data validation, transaction management, authentication and authorization, and persistence with JPA',
           ]
         },
         {
@@ -87,10 +88,11 @@ export const cv_eng = {
           date: 'April, 2022 - September, 2022',
           position: 'Backend Developer',
           activities: [
-            'Maintained and developed new features for the NodeJS backend of the DAVI chatbot - UPN',
-            'Developed and optimized the relational database (PostgreSQL) using Window Functions, Common Table Expressions, and Temporary Tables',
-            'Converted monolithic architecture to microservices, migrating code to IBM Cloud using triggers',
-            'Migrated code from JavaScript to TypeScript, documented code, and trained colleagues'
+            'Development and maintenance of NodeJS backend for DAVI chatbot (UPN). Unit testing and API debugging, performance optimization, and deployment to staging/production environments',
+            'Implementation of authentication and authorization module with Java (Spring Boot). Configuration of Spring Security with JWT, implementation of custom filters, role and permission management across multiple systems using @PreAuthorize',
+            'Schema design and relational database optimization (PostgreSQL). Development of complex queries with Window Functions, Common Table Expressions (CTEs), Temporary Tables, and indexes for performance improvement',
+            'Conversion from monolithic architecture to microservices migrating code to IBM Cloud using triggers. Application of scalable design principles and service decoupling',
+            'Migration of codebase from JavaScript to TypeScript, creation of technical documentation, and team training on development best practices',
           ]
         },
         {
@@ -98,8 +100,10 @@ export const cv_eng = {
           date: 'December, 2020 - July, 2021',
           position: 'Design and Project Engineer',
           activities: [
-            'Developed and maintained a mobile application using Flutter',
-            'Created mockups for the mobile application in Figma'
+            'Development and maintenance of RESTful backend in Java (Spring Boot) with layered architecture (Controller, Service, Repository). Creation of endpoints, data validation, exception handling with @ControllerAdvice, CORS and security configuration',
+            'Database schema design representing business processes. API testing with Postman, debugging in development environment, and deployment to production',
+            'Development and maintenance of mobile application in Flutter. Backend integration through REST API consumption, authentication handling between mobile client and server',
+            'Creation of mockups in Figma and mobile application layout in App Inventor. Collaboration with development team to define technical specifications',
           ]
         }
       ]
@@ -108,7 +112,7 @@ export const cv_eng = {
     header: 'header',
     profile: {
       title: 'Professional Profile',
-      content: 'Experienced Backend Developer with 4 years in software development for the Outsourcing sector. Demonstrated expertise in API design and implementation, SQL/NoSQL database design, AWS services integration, and event-driven and microservices architectures. I am looking for new opportunities as a Semi-Senior Developer, where I can leverage my experience to drive innovative and efficient projects. Additionally, I have conversational English skills and AWS certifications.'
+      content: `Backend Developer with over ${new Date().getFullYear() - 2021} years of experience specialized in Python (FastAPI, Flask) and scalable web application development. Proven expertise in RESTful API design and implementation, event-driven microservices architecture, integration of multiple data sources (SQL/NoSQL), and cloud services (AWS). Experience in authentication and authorization across systems, performance optimization with caching (Redis), concurrency handling and asynchronous programming in Python. Strong frontend knowledge (HTML/CSS/Tailwind CSS, React/TypeScript) enabling effective collaboration with Full-Stack teams. Experience in automated deployment (CI/CD), testing, debugging, and staging/production environment management. AWS Cloud Practitioner certified with fluent conversational English.`
     },
   }
 }
