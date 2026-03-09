@@ -23,10 +23,10 @@ const Contact = () => {
   return (
     <ul className="flex flex-col justify-between items-end">
       <a
-        href="mailto:deglan.rivas@pucp.edu.pe"
+        href="mailto:deglan.r.r@gmail.com"
         className="text-blue-600 underline underline-offset-2"
       >
-        deglan.rivas@pucp.edu.pe
+        deglan.r.r@gmail.com
       </a>
       <a
         href="tel:+51 989743073"
