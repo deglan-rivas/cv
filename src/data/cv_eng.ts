@@ -33,11 +33,12 @@ export const cv_eng = {
           date: 'May, 2025 - Present',
           position: 'AI Developer',
           activities: [
-            'Implement AWS cloud infrastructure, in conjunction with Kubernetes, to temporarily scale processing up to five times the current capacity of an on-premise batch processing system',
+            'Implement AWS cloud infrastructure in conjunction with Kubernetes to temporarily scale processing up to five times the current capacity of an on-premise batch processing system',
             'Standardize the team\'s code generation under an AI-driven development approach, using precommit hooks, CI/CD, subagents and specialized skills to homogenize code produced by different LLMs used by developers: Cursor, Claude and Codex',
             'Implement a conversational jurisprudence chatbot based on a Graph RAG (GraphRAG) developed with Python, capable of answering frequent queries from jurisdictional assistants more fluidly and naturally than a traditional decision-tree-based chatbot. Additionally, a cache mechanism was incorporated to reduce LLM token consumption (Gemini API) by 50%',
-            'Refactoring monolithic architecture to Dockerized microservices applying Hexagonal Architecture. Container orchestration with Docker Compose (multistage builds), configuration of development and production environments, and automated deployment',
-            'Development of desktop application (Vite + React + TypeScript + TailwindCSS) with reusable components, form validation, and data persistence. Collaboration with backend team for API integration and end-to-end testing',
+            'Automate delivery with YAML CI/CD pipelines: 2 pipeline repositories (frontend, backend) and 3 Kubernetes manifest repositories (dev, qa, prod). Cut run times by caching dependencies and reusing Docker layers via base images and multistage builds, integrate test coverage with SonarQube and configure Linux and Windows runners (the latter to build the "Recuento de Votos" desktop app, created in Tauri and React). Progressive migration to continuous deployment with GitOps using ArgoCD',
+            'Develop code following the Spec-Driven Development (SDD) methodology and applying TDD to ensure code quality with integration tests using Testcontainers and end-to-end tests with Playwright. Document and archive each feature release with the Gentle-AI framework, which follows OpenSpec guidelines',
+            'Design an infrastructure-as-code (IaC) test environment to try changes without affecting shared environments: own DNS and certificate authority, artifact repository (Nexus), GitLab with its runner, and Kubernetes clusters recreatable on demand',
           ]
         },
         {
@@ -95,7 +96,6 @@ export const cv_eng = {
             // [.NET]
             'Implementation of authentication and authorization module with ASP.NET Core (C#). Configuration of JWT Bearer Authentication with custom middleware, role and policy-based access management across multiple systems using the [Authorize] attribute',
             'Schema design and relational database optimization (PostgreSQL). Development of complex queries with Window Functions, Common Table Expressions (CTEs), Temporary Tables, and indexes for performance improvement',
-            'Conversion from monolithic architecture to microservices migrating code to IBM Cloud using triggers. Application of scalable design principles and service decoupling',
             'Migration of codebase from JavaScript to TypeScript, creation of technical documentation, and team training on development best practices',
           ]
         },

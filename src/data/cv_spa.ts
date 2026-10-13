@@ -33,11 +33,12 @@ export const cv_spa = {
           date: 'Mayo, 2025 - Actualidad',
           position: 'AI Developer',
           activities: [
-            'Implementar infraestructura en la nube de AWS, en conjunto con Kubernetes, para escalar de manera temporal el procesamiento hasta cinco veces la capacidad actual de un sistema batch de procesamiento en lotes on-premise',
+            'Implementar infraestructura en la nube de AWS en conjunto con Kubernetes para escalar de manera temporal el procesamiento hasta cinco veces la capacidad actual de un sistema batch de procesamiento en lotes on-premise',
             'Estandarizar la generación de código del equipo bajo un enfoque AI-driven development, mediante precommit hooks, CI/CD, subagentes y skills especializados para homogenizar el código producido por distintos LLMs empleados por los desarrolladores: Cursor, Claude y Codex',
             'Implementar un chatbot conversacional de jurisprudencia basado en un RAG de grafos (GraphRAG) desarrollado con Python, capaz de responder las consultas frecuentes de los asistentes jurisdiccionales de forma más fluida y natural que un chatbot tradicional basado en árboles de decisión. Asimismo, se incorporó un mecanismo de caché para reducir en un 50 % el consumo de tokens del LLM (API de Gemini)',
-            'Refactorización de arquitectura monolítica a microservicios dockerizados aplicando Arquitectura Hexagonal. Orquestación de contenedores con Docker Compose (multistage builds), configuración de entornos de desarrollo y producción, y deployment automatizado',
-            'Desarrollo de aplicación de escritorio (Vite + React + TypeScript + TailwindCSS) con componentes reutilizables, validación de formularios, y persistencia de datos. Colaboración con equipo de backend para integración de APIs y testing end-to-end',
+            'Automatizar la entrega con pipelines CI/CD en YAML: 2 repositorios de pipelines (frontend, backend) y 3 de manifiestos Kubernetes (dev, qa, prod). Reducir tiempos cacheando dependencias y reutilizando capas de Docker con imágenes previas y multistage builds, integrar cobertura de pruebas con SonarQube y configurar runners Linux y Windows (este último para compilar la app de escritorio Recuento de Votos, creada en Tauri y React). Migración progresiva a despliegue continuo con GitOps usando ArgoCD',
+            'Desarrollar código siguiendo la metodología Spec-Driven Development (SDD) y aplicando TDD para garantizar la calidad del código con pruebas de integración mediante Testcontainers y pruebas end-to-end con Playwright. Documentar y archivar el release de cada feature con el framework Gentle-AI, el cual sigue los lineamientos de OpenSpec',
+            'Diseñar una infraestructura de pruebas como código (IaC) para probar cambios sin afectar ambientes compartidos: DNS y autoridad certificadora propios, repositorio de artefactos (Nexus), GitLab con su runner y clústeres Kubernetes recreables a demanda',
           ]
         },
         {
@@ -77,13 +78,12 @@ export const cv_spa = {
           date: 'Marzo, 2023 - Junio, 2023',
           position: 'Fullstack Developer - Freelancer',
           activities: [
-            'Desarrollo de maquetado responsive HTML/CSS con Bootstrap y Tailwind CSS, asegurando accesibilidad y compatibilidad cross-browser',
             'Desarrollo de aplicación de atención de tickets en tiempo real utilizando WebSockets en NodeJS. Implementación de arquitectura event-driven para notificaciones push y sincronización de estado entre clientes',
             'Mantenimiento del frontend legacy (VanillaJS/jQuery) y posterior migración a React con TypeScript. Desarrollo de componentes reutilizables, routing SPA con React Router, y consumo de APIs REST con manejo de efectos secundarios (useEffect)',
             // [JAVA] 
-            'Desarrollo y mantenimiento de APIs RESTful para sistema de facturación electrónica en Java (Spring Boot). Implementación de validación de datos, manejo de transacciones, autenticación y autorización, y persistencia con JPA',
+            // 'Desarrollo y mantenimiento de APIs RESTful para sistema de facturación electrónica en Java (Spring Boot). Implementación de validación de datos, manejo de transacciones, autenticación y autorización, y persistencia con JPA',
             // [.NET]
-            // 'Desarrollo y mantenimiento de APIs RESTful para sistema de facturación electrónica en ASP.NET Core (C#). Implementación de validación con FluentValidation, gestión de transacciones con Entity Framework Core, autenticación JWT y autorización por roles con ASP.NET Identity',
+            'Desarrollo y mantenimiento de APIs RESTful para sistema de facturación electrónica en ASP.NET Core (C#). Implementación de validación con FluentValidation, gestión de transacciones con Entity Framework Core, autenticación JWT y autorización por roles con ASP.NET Identity',
           ]
         },
         {
@@ -93,11 +93,10 @@ export const cv_spa = {
           activities: [
             'Desarrollo y mantenimiento de backend en NodeJS para chatbot DAVI (UPN). Testing unitario y debugging de APIs, optimización de performance, y deployment a entornos de staging/producción',
             // [JAVA] 
-            'Implementación de módulo de autenticación y autorización con Java (Spring Boot). Configuración de Spring Security con JWT, implementación de filtros personalizados, gestión de roles y permisos entre múltiples sistemas usando @PreAuthorize',
+            // 'Implementación de módulo de autenticación y autorización con Java (Spring Boot). Configuración de Spring Security con JWT, implementación de filtros personalizados, gestión de roles y permisos entre múltiples sistemas usando @PreAuthorize',
             // [.NET]
-            // 'Implementación de módulo de autenticación y autorización con ASP.NET Core (C#). Configuración de JWT Bearer Authentication con middleware personalizado, gestión de roles y políticas de acceso entre múltiples sistemas usando el atributo [Authorize]',
+            'Implementación de módulo de autenticación y autorización con ASP.NET Core (C#). Configuración de JWT Bearer Authentication con middleware personalizado, gestión de roles y políticas de acceso entre múltiples sistemas usando el atributo [Authorize]',
             'Diseño de schemas y optimización de base de datos relacional (PostgreSQL). Desarrollo de queries complejas con Window Functions, Common Table Expressions (CTEs), Temporary Tables, e índices para mejorar performance',
-            'Conversión de arquitectura monolítica a microservicios migrando código a IBM Cloud mediante triggers. Aplicación de principios de diseño escalable y desacoplamiento de servicios',
             'Migración de codebase de JavaScript a TypeScript, creación de documentación técnica, y capacitación de equipo en mejores prácticas de desarrollo',
           ]
         },
@@ -107,10 +106,9 @@ export const cv_spa = {
           position: 'Ingeniero de Diseño y Proyectos',
           activities: [
             // [JAVA] 
-            'Desarrollo y mantenimiento de backend RESTful en Java (Spring Boot) con arquitectura en capas (Controller, Service, Repository). Creación de endpoints, validación de datos, manejo de excepciones con @ControllerAdvice, configuración de CORS y seguridad',
+            // 'Desarrollo y mantenimiento de backend RESTful en Java (Spring Boot) con arquitectura en capas (Controller, Service, Repository). Creación de endpoints, validación de datos, manejo de excepciones con @ControllerAdvice, configuración de CORS y seguridad',
             // [.NET]
-            // 'Desarrollo y mantenimiento de backend RESTful en ASP.NET Core (C#) con arquitectura en capas (Controller, Service, Repository). Creación de endpoints, validación con FluentValidation, manejo global de excepciones con middleware, configuración de CORS y seguridad',
-            'Diseño de schemas de base de datos que representan procesos de negocio. Testing de APIs con Postman, debugging en entorno de desarrollo, y deployment a producción',
+            'Desarrollo y mantenimiento de backend RESTful en ASP.NET Core (C#) con arquitectura en capas (Controller, Service, Repository). Creación de endpoints, validación con FluentValidation, manejo global de excepciones con middleware, configuración de CORS y seguridad',
             'Desarrollo y mantenimiento de aplicación móvil en Flutter. Integración con backend mediante consumo de APIs REST, manejo de autenticación entre cliente móvil y servidor',
             'Elaboración de mockups en Figma y maquetación de aplicación móvil en App Inventor. Colaboración con equipo de desarrollo para definir especificaciones técnicas',
           ]
