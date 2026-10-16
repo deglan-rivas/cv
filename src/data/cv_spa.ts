@@ -44,7 +44,7 @@ export const cv_spa = {
         {
           company: 'Programate S.A.C',
           date: 'Octubre, 2024 - Abril, 2025',
-          position: 'Fullstack Developer',
+          position: 'AI Fullstack Developer',
           activities: [
             'Desarrollo y resolución de incidencias en MIO, aplicación web basada en React (implementando componentes funcionales con Hooks, React Router para navegación, y gestión de estado con Context API) y Express (NodeJS) para el backend',
             'Desarrollo y mantenimiento del backend serverless de VisiTasa con Azure Functions en C# (.NET), dando soporte a múltiples clientes empresariales (Tasa y Ologgi) en un entorno de producción en la nube de Azure',
@@ -55,7 +55,7 @@ export const cv_spa = {
         {
           company: 'Aicon ( Wisec AI )',
           date: 'Julio, 2024 - Octubre, 2024',
-          position: 'Fullstack Developer - Part time',
+          position: 'AI Fullstack Developer - Part time',
           activities: [
             'Desarrollo de pipeline RAG para chatbot de cementera, integrando ingesta de documentos de OneDrive y SharePoint con indexación y búsqueda web mediante Bing Search API',
             'Mantenimiento y desarrollo de servicios backend en Python (FastAPI). Debugging y resolución de issues en producción, optimización de queries, y testing de endpoints con pytest',
@@ -66,7 +66,7 @@ export const cv_spa = {
         {
           company: 'Notifai S.A.C',
           date: 'Enero, 2023 - Noviembre, 2023',
-          position: 'Backend Developer',
+          position: 'AI Backend Developer',
           activities: [
             'Desarrollo de funciones serverless en Python (AWS Lambda) para automatización de chatbots con IBM Watson y DialogFlow. Implementación de event-driven programming con AWS EventBridge para procesamiento asíncrono',
             'Limpieza y etiquetado de datos para NLU, y desarrollo de detector de intents por fuzzy matching como capa complementaria a IBM Watson y DialogFlow',

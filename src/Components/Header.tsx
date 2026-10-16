@@ -13,8 +13,8 @@ const Title = () => {
   return (
     <div className="space-y-4">
       <h1 className="font-bold text-4xl"> Deglan Jesus Rivas Romero </h1>
-      <h2 className="font-bold text-3xl"> FullStack Developer </h2>
-      <p className="font-bold text-xl"> NodeJS | Python | React | AWS Cloud | SQL | DevOps  </p>
+      <h2 className="font-bold text-3xl"> AI Developer </h2>
+      <p className="font-bold text-xl"> Python | LLMs & RAG | GraphRAG | NLP | AWS · Azure | Kubernetes | CI/CD </p>
     </div>
   )
 }
