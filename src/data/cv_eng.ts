@@ -48,6 +48,7 @@ export const cv_eng = {
           activities: [
             'Development and issue resolution in MIO, a web application based on React (implementing functional components with Hooks, React Router for navigation, and state management with Context API) and Express (NodeJS) for the backend',
             'Development and maintenance of the VisiTasa serverless backend with Azure Functions in C# (.NET), supporting multiple enterprise clients (Tasa and Ologgi) in a cloud production environment on Azure',
+            'Development of a computer-vision access control system for gatehouses using face detection and facial landmarks, giving a personalized welcome to each person entering',
             'Reduced production incident diagnosis time through KQL queries in Azure Monitor and Application Insights, improving visibility of security metrics and system performance',
           ]
         },
@@ -56,6 +57,7 @@ export const cv_eng = {
           date: 'July, 2024 - October, 2024',
           position: 'Fullstack Developer - Part time',
           activities: [
+            'Development of a RAG pipeline for a cement company chatbot, integrating document ingestion from OneDrive and SharePoint with indexing and web search through Bing Search API',
             'Maintenance and development of backend services in Python (FastAPI). Debugging and resolution of production issues, query optimization, and endpoint testing with pytest',
             'Development and testing of RESTful APIs following scalable design principles. Implementation of data validation, error handling, and automatic documentation with OpenAPI/Swagger',
             'Collaboration with frontend team for API integration. Consumption of standardized components (tables, graphs) and state management in Next.js with SWR',
@@ -67,6 +69,7 @@ export const cv_eng = {
           position: 'Backend Developer',
           activities: [
             'Development of serverless functions in Python (AWS Lambda) for chatbot automation with IBM Watson and DialogFlow. Implementation of event-driven programming with AWS EventBridge for asynchronous processing',
+            'NLU data cleaning and labeling, and development of a fuzzy-matching intent detector as a complementary layer to IBM Watson and DialogFlow',
             'Design and implementation of event-driven microservices architecture on AWS: Lambdas (Python), SQS FIFO for messaging, EventBridge for event routing, applying scalable design principles and decoupling',
             'Configuration and automated deployment of Infrastructure as Code (IaC) on AWS CloudFormation using template.yaml. Setup of staging and production environments with CI/CD pipeline in GitHub Actions',
             'Database schema modeling in AWS DocumentDB (NoSQL) representing and supporting business processes. Integration of multiple data sources into a unified system',
@@ -118,7 +121,7 @@ export const cv_eng = {
     header: 'header',
     profile: {
       title: 'Professional Profile',
-      content: `Backend Developer with over ${new Date().getFullYear() - 2021} years of experience specialized in Python (FastAPI, Flask) and scalable web application development. Proven expertise in RESTful API design and implementation, event-driven microservices architecture, integration of multiple data sources (SQL/NoSQL), and cloud services (AWS). Experience in authentication and authorization across systems, performance optimization with caching (Redis), concurrency handling and asynchronous programming in Python. Strong frontend knowledge (HTML/CSS/Tailwind CSS, React/TypeScript) enabling effective collaboration with Full-Stack teams. Experience in automated deployment (CI/CD), testing, debugging, and staging/production environment management. AWS Cloud Practitioner certified with fluent conversational English.`
+      content: `AI Developer with over ${new Date().getFullYear() - 2021} years of backend development experience, specialized in integrating and consuming AI services: LLMs (Gemini), RAG and GraphRAG, and conversational chatbots (IBM Watson, DialogFlow). Solid foundation in Python (FastAPI, Flask), RESTful APIs, event-driven microservices architecture, data source integration (SQL/NoSQL), and cloud services (AWS, Azure, Kubernetes). Experience in automated deployment (CI/CD), testing, debugging, and AI-assisted development (Spec-Driven Development, TDD). Frontend knowledge (React/TypeScript) for effective collaboration with Full-Stack teams. AWS Cloud Practitioner certified with fluent conversational English.`
     },
   }
 }

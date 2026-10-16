@@ -48,7 +48,8 @@ export const cv_spa = {
           activities: [
             'Desarrollo y resolución de incidencias en MIO, aplicación web basada en React (implementando componentes funcionales con Hooks, React Router para navegación, y gestión de estado con Context API) y Express (NodeJS) para el backend',
             'Desarrollo y mantenimiento del backend serverless de VisiTasa con Azure Functions en C# (.NET), dando soporte a múltiples clientes empresariales (Tasa y Ologgi) en un entorno de producción en la nube de Azure',
-            'Reducción del tiempo de diagnóstico de incidencias en producción mediante consultas KQL en Azure Monitor y Application Insights, mejorando la visibilidad de métricas de seguridad y rendimiento del sistema',
+            'Desarrollo de control de acceso con visión por computadora en garitas mediante detección de rostros y landmarks faciales, dando bienvenida personalizada a cada ingreso',
+            // 'Reducción del tiempo de diagnóstico de incidencias en producción mediante consultas KQL en Azure Monitor y Application Insights, mejorando la visibilidad de métricas de seguridad y rendimiento del sistema',
           ]
         },
         {
@@ -56,8 +57,9 @@ export const cv_spa = {
           date: 'Julio, 2024 - Octubre, 2024',
           position: 'Fullstack Developer - Part time',
           activities: [
+            'Desarrollo de pipeline RAG para chatbot de cementera, integrando ingesta de documentos de OneDrive y SharePoint con indexación y búsqueda web mediante Bing Search API',
             'Mantenimiento y desarrollo de servicios backend en Python (FastAPI). Debugging y resolución de issues en producción, optimización de queries, y testing de endpoints con pytest',
-            'Desarrollo y testing de APIs RESTful siguiendo principios de diseño escalable. Implementación de validación de datos, manejo de errores, y documentación automática con OpenAPI/Swagger',
+            // 'Desarrollo y testing de APIs RESTful siguiendo principios de diseño escalable. Implementación de validación de datos, manejo de errores, y documentación automática con OpenAPI/Swagger',
             'Colaboración con equipo frontend para integración de APIs. Consumo de componentes estandarizados (tablas, gráficos) y manejo de estado en Next.js con SWR',
           ]
         },
@@ -67,10 +69,11 @@ export const cv_spa = {
           position: 'Backend Developer',
           activities: [
             'Desarrollo de funciones serverless en Python (AWS Lambda) para automatización de chatbots con IBM Watson y DialogFlow. Implementación de event-driven programming con AWS EventBridge para procesamiento asíncrono',
+            'Limpieza y etiquetado de datos para NLU, y desarrollo de detector de intents por fuzzy matching como capa complementaria a IBM Watson y DialogFlow',
             'Diseño e implementación de arquitectura de microservicios orientada a eventos en AWS: Lambdas (Python), SQS FIFO para mensajería, EventBridge para event routing, aplicando principios de diseño escalable y desacoplamiento',
             'Configuración y despliegue automatizado de infraestructura como código (IaC) en AWS CloudFormation mediante template.yaml. Setup de entornos de staging y producción con pipeline CI/CD en GitHub Actions',
             'Modelado de schemas de base de datos en AWS DocumentDB (NoSQL) que representan y soportan procesos de negocio. Integración de múltiples fuentes de datos en un sistema unificado',
-            'Testing y debugging de servicios en producción. Resolución de issues de configuración en servidores, monitoreo de performance, y optimización de recursos AWS',
+            // 'Testing y debugging de servicios en producción. Resolución de issues de configuración en servidores, monitoreo de performance, y optimización de recursos AWS',
           ]
         },
         {
@@ -118,7 +121,7 @@ export const cv_spa = {
     header: 'header',
     profile: {
       title: 'Perfil Profesional',
-      content: `Backend Developer con más de ${new Date().getFullYear() - 2021} años de experiencia especializado en Python (FastAPI, Flask) y desarrollo de aplicaciones web escalables. Expertise comprobado en diseño e implementación de APIs RESTful, arquitectura de microservicios orientada a eventos, integración de múltiples fuentes de datos (SQL/NoSQL), y servicios en la nube (AWS). Experiencia en autenticación y autorización entre sistemas, optimización de rendimiento con caché (Redis), manejo de concurrencia y programación asíncrona en Python. Sólidos conocimientos en frontend (HTML/CSS/Tailwind CSS, React/TypeScript) permitiendo colaboración efectiva con equipos Full-Stack. Experiencia en despliegue automatizado (CI/CD), testing, debugging, y gestión de entornos de staging/producción. Certificado en AWS Cloud Practitioner con inglés conversacional fluido.`
+      content: `AI Developer con más de ${new Date().getFullYear() - 2021} años de experiencia en desarrollo backend, especializado en integrar y consumir servicios de IA: LLMs (Gemini), RAG y GraphRAG, y chatbots conversacionales (IBM Watson, DialogFlow). Sólida base en Python (FastAPI, Flask), APIs RESTful, arquitectura de microservicios orientada a eventos, integración de fuentes de datos (SQL/NoSQL) y servicios en la nube (AWS, Azure, Kubernetes). Experiencia en despliegue automatizado (CI/CD), testing, debugging y desarrollo asistido por IA (Spec-Driven Development, TDD). Conocimientos de frontend (React/TypeScript) para colaborar con equipos Full-Stack. Certificado en AWS Cloud Practitioner con inglés conversacional fluido.`
     },
   }
 }
